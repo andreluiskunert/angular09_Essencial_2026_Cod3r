@@ -1,0 +1,22 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Notebook Lenovo",
+            "price": "1799.00",
+            "modelo": "T440p"
+        },
+        {
+            "id": 2,
+            "name": "Mouse USB Lenovo",
+            "price": "39.90",
+            "modelo": "Usb Essential Sm8823 Optical Mo28uol Moeuuo Preto"
+        },
+        {
+            "id": 3,
+            "name": "Monitor DELTA",
+            "price": "551.07",
+            "modelo": "Led 21.5 e vga sem borda HD Widescreen 75hz"
+        }
+    ]
+}

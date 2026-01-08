@@ -1,0 +1,222 @@
+visão sobre angular : 
+Pessoal nós vamos agora ter uma visão geral do ângulo para que a gente possa entender alguns conceitos
+
+extremamente importantes antes de começar a colocar a mão no código.
+
+Primeira pergunta que surge e o que é o ângulo acredito que a maioria das pessoas já tenham ideia do
+
+que seja.
+
+E eu vou explicar um pouquinho pra vocês nesse slide então afirmou que JavaScript desenvolvido pelo
+
+Google para criação de aplicações espinhaço de 5 page application baseado em componentes tem outros
+
+elementos importantes como diretivas sebes e vou falar um pouco mais à frente mais um dos conceitos
+
+centrais do ano que foi das grandes motivações da mudança do ângulo jazz que era a versão para a segunda
+
+versão do ano que foi reescrito completamente afirmou.
+
+é questão de ser baseado em componentes está ali e ele é um framework JavaScript porque na verdade a
+
+gente vai escrever muito código biscuit que é um outro que é um super set do JavaScript.
+
+Eu vou falar um pouquinho sobre isso mas afirmou que afirmou que JavaScript que vai produzir pra você
+
+conteúdo HTML CSS e JavaScript sendo que HTML vai ser gerado dinamicamente a partir do JavaScript.
+
+Por isso que a aplicação 5 Pages Application.
+
+Vocês vão ver na sequência que eu vou colocar um aula para descrever os principais arquivos do projeto.
+
+Vocês vão ver que lá vou mostrar para vocês ainda que esse ponto HTML que é a nossa única página está.
+
+Outra coisa importante também que gera muita confusão inclusive foi muito debatida na época.
+
+Já aconteceu isso certo foi a migração digamos assim da versão do angolano para a versão 2 em diante.
+
+Certo Na versão A gente tinha um framework que hoje é chamado de angular jazz quando você Angola jazz
+
+se você está se referindo à primeira versão do ângulo e o ângulo ficou muito famoso na época do ângulo
+
+jazz.
+
+Muita gente adotou certo só queria um framework bem diferente do que é o Facebook a partir da sua segunda
+
+versão.
+
+E a partir daí um novo ângulo foi criado.
+
+Certo muita gente chateou exatamente porque quebrou muito a filosofia do ângulo jazz tinha gente a usar
+
+Bombardier em grandes projetos e tal eles precisaram faturar todo o projeto para que ele criasse uma
+
+versão como é a versão hoje baseada em componentes.
+
+Como falei pra vocês anteriormente.
+
+A partir daí surgiu a versão 2 e aí eles pularam a versão 3 e foram para a versão 4 por uma questão
+
+de alinhamento das versões de alguns pacotes que estavam na versão 3 outros na versão 2 resolveram promover
+
+todo mundo para a versão 4.
+
+Eles usa o semântico fecho naquela versão com 3 números primeiramente.
+
+O segundo maior é o terceiro o Pet certo agora está na versão no mercado gravando um vídeo na versão
+
+9 com tudo certo mas eles estão lançando versões aproximadamente duas vezes por ano.
+
+Esse o objetivo do Google nem todo ano se consegue é lançar duas versões.
+
+Mas uma coisa é importante você perceber o seguinte a partir da versão 2 apesar de que 9 está muito
+
+distante 2 mais a base do fêmur que permanece a mesma.
+
+Ou seja se você olhar um projeto desenvolvido em ano R2 e você olhar um projeto desenvolvido em Angola
+
+vai ter obviamente mudanças mais a estrutura do fêmur que mesmo.
+
+Então não há uma quebra de compatibilidade.
+
+Quando você sai por exemplo na versão 2 para 4 4 para 5 sucessivamente até chegar a versão 9 o que houve
+
+de quebra de compatibilidade foi da versão do angolano jazz para a versão 2 aí sim há um novo tremor
+
+que um novo ângulo e mais a partir da versão 2.
+
+Nós temos um frame tem evoluído mais ou menos a cada dois anos não necessariamente todo ano tem duas
+
+versões.
+
+Outra coisa extremamente importante relacionada ao ângulo.
+
+Você vai perceber o uso frequente do C.
+
+L.
+
+Como Layne.
+
+Não apenas o angular usa o selim e outros frameworks também usam Selim linguagens também tem uma interface
+
+de comando certo então nós instalamos o selim e a partir do ano imprime é menos G global arroba angular
+
+traço Selim e vocês vão ver que eu vou fazer esse processo na próxima aula e a partir daí nós vamos
+
+criar a nossa aplicação então INEGI assim Jedi angolana.
+
+Energia e as primeiras três letras eles pegaram a segunda e a terceira letra de amor colocaram em mil
+
+para criar um novo projeto.
+
+Você diz o nome da sua aplicação.
+
+Certo A gente vai colocar algumas flags na hora de criar mais a base para criar um projeto Angola.
+
+Esse comando que coloquei pra vocês.
+
+Outra questão importante relacionada ao Angola é o uso por padrão do tags criticar a linguagem desenvolvida
+
+pela Microsoft.
+
+E esse código desenvolvido em tags exclui que ele vai ser compilado para JavaScript.
+
+Até porque House não sabe não conhece a sintaxe do script.
+
+O script é uma linguagem super 7 do JavaScript.
+
+Ele tem tudo o que o JavaScript tem mas ela acrescenta uma série de funcionalidades por exemplo.
+
+Uma das mais fortes funcionalidades que se acrescenta no script a tipagem forte ou seja você tem como
+
+definitivos associados a suas variáveis.
+
+Diferente do JavaScript você cria uma variável e o tipo é dinâmico ou seja você pode colocar um estranho
+
+que você pode colocar um valor numérico.
+
+Você pode colocar um objeto um array todos à mesma variável obviamente em tempos diferentes deve ser
+
+mais e trocando o valor da variável para qualquer tipo.
+
+Já o Tapes Clipper tem como garantia a tipagem de determinada variável ou o parâmetro para uma função
+
+além de outros recursos como por exemplo decorei tudo que vocês vão ver o uso muito frequente decorei
+
+tudo dentro de um projeto Angola e esse é um recurso dotado de script.
+
+Vocês vão ver também a questão de interfaces que também é um recurso de script.
+
+Então tem muita coisa interessante Dr script que é usado dentro do Anglo.
+
+Por isso que ele foi escolhido então o tais crimes como eu falei pra vocês é um Super 7 no JavaScript.
+
+Ou seja tudo que o JavaScript tem suportado no biscuit e o disco coloca algumas funcionalidades a mais
+
+e no final das contas esse código que tem funcionalidades a mais que o Brasil não tem a menor idéia
+
+do que se trata.
+
+Tem um compilador que vai converter esse código Biscuit para Javascript puro ou seja quando você gerar
+
+o seu projeto seu projeto estará apenas com HTML CSS e principalmente JavaScript.
+
+Até porque tirando a sua única página HTML todo conteúdo HTML que é gerado no Brasil é gerado a partir
+
+da manipulação da Adobe via JavaScript ou seja você vai criando os elementos dinamicamente a partir
+
+do frame.
+
+Isso é um processo que acontece por baixo a gente não precisa se preocupar.
+
+Então o próximo passo é vou falar um pouquinho sobre um conceito essencial para qualquer tipo de framework
+
+que se baseia em componentes.
+
+Isso serve para o Yeti.
+
+Isso serve pra vcs.
+
+Isso serve pra flat porque as suas aplicações são construídas a partir de uma árvore de componentes
+
+a forma como cada frame que implementa os componentes é diferente o vira amplamente de um jeito.
+
+O Yeti usa outra forma de fazer com JS X e o ângulo tem a sua própria forma que a gente vai conhecer
+
+aqui durante o curso.
+
+Eu falo um pouquinho também nessa aula teórica.
+
+Então basicamente você começa a sua aplicação a partir de um componente principal no caso que eu coloquei
+
+mai EFE. Mais o caso do ângulo ele chama por padrão app componente que é o raiz a sua aplicação e a
+
+partir desse componente você vai referenciando outros componentes você vai ter ao redor você vai ter
+
+um componente que apresenta o conteúdo dentro do rádio.
+
+Você vai ter um componente de navegação lá no do conteúdo você vai ter um culto Taito você vai ter por
+
+exemplo um componente que representa o crude e o cadastro de produtos dentro do navio navegação você
+
+vai ter lista de lista você vai ter os itens da lista.
+
+Da mesma forma que lá dentro o nosso componente de Cloud você tem.
+
+Você tem um program conforme você tem o componente embute um componente barato não necessariamente você
+
+precisa para criar um input definir um componente você pode simplesmente dentro do componente formulário
+
+ter vários elementos HTML sem problema nenhum.
+
+E aí esse nível de grande variedade é algo que a gente pode estar conversando durante o uso e falando
+
+mais eu coloquei aqui só como exemplo que você vai ter uma árvore de componentes que você vai ter um
+
+componente pai o componente filhos que vai ter outros componentes filhos e assim você vai definir toda
+
+a sua aplicação a partir de componentes.
+
+O próximo passo é o cara falar sobre conceitos essenciais do angolano mas para não ficar muito grande
+
+na sala vou deixar isso pra próxima.

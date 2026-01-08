@@ -1,0 +1,413 @@
+essoal nessa hora vou falar de alguns conceitos essenciais assim como na aula passada a gente falou
+
+sobre um pouquinho sobre componente chave de componente na sala ele fala um pouco mais sobre isso tentar
+
+trazer um pouco mais para dentro da realidade do ambulante a gente criar o nosso primeiro projeto.
+
+Então conceitos essenciais e aqui a primeira coisa que eu vou querer falar um pouquinho do fluxo da
+
+inicialização na nossa aplicação vou mostrar isso quando a gente for aberta meus arquivos.
+
+Vocês vão perceber que quando nosso projeto for criado vai ter um arquivo chamado mim ponto teste a
+
+primeira coisa que eu quero chamar atenção é que você eventualmente pode estar acostumado a criar arquivo
+
+ponto e sim de JavaScript de índio e criar arquivos.
+
+Ponto teste de biscuit ou seja tudo que você usa no Javascript pode ser colocado dentro de um arquivo
+
+script ou seja o script era compatível com o código Javascript que você escreveu foco em JavaScript
+
+e criar a função javascript já que você vai colocar elementos adicionais como tipagem em relação aos
+
+parâmetros como decorei tudo que eu achar pra vocês um pouco mais à frente.
+
+Então você tem aqui meio ponto teste que é o seu arquivo de script.
+
+Esse é o primeiro arquivo que será chamado para inicializar sua aplicação em Angola logo na sequência
+
+você vai ver que esse arquivo vai chamar o módulo da sua aplicação que é o app móvel.
+
+E aqui vale uma observação importante eu vou explicar isso também durante essa aula que a nossa aplicação
+
+em Angola vai se organizava em componentes ou seja uma grande árvore de componentes.
+
+Só que esses componentes eles são organizados dentro de módulos ou seja a sua aplicação Angola é modo
+
+polarizada e esses módulos vão te dar e vamos assim algumas alguns poderes como por exemplo criar determinados
+
+componentes que estão visíveis apenas dentro do módulo.
+
+Isso traz o maior nível de encapsulamento.
+
+Então se você pensar em um determinado componente que é um componente que não pode ser usado fora de
+
+determinada situação não pode ser usado no sistema inteiro então você pode colocar esse nível de módulo
+
+e ele ficar visível apenas dentro daquele módulo certo.
+
+Então existe essa esse nível a mais no ângulo que você encontra por exemplo frame que viu.
+
+Você não encontra isso no iate que essa divisão além de você ter os componentes você cria os módulos
+
+e você coloca os componentes no módulo por padrão quando você cria sua aplicação em Angola já existe
+
+um módulo que é o WEP molho e esse é um módulo que será chamado para inicializar sua aplicação dentro
+
+do App Mode.
+
+Vocês vão ver que vai ter um atributo chamado Bootstrap.
+
+O Desktop inicializar coisa do tipo certo.
+
+Então mude sua app ele vai apontar para o componente componente que é o componente que foi criado por
+
+padrão e a partir do Web componente todos a toda árvore de componente era chamada certa então esse é
+
+o processo de inicialização nem acontece será chamado WEP Mode ou é carregado quando o molde é carregado.
+
+O primeiro componente será chamado o componente foi declarado no atributo Bootstrap e é exatamente o
+
+componente e dentro do componente ele vai fazer referência por exemplo pra WEP o futuro contente você
+
+vai colocar outros componentes que a gente mentalmente vai importar também a gente vai usar o material
+
+design no nosso projeto.
+
+Então vamos à primeira pergunta alguma já na primeira pergunta deve ser minha quarta.
+
+Pergunto mais mais uma pergunta importante tem que fazer e o que é um componente componente.
+
+Você vai encontrar esse conceito.
+
+Como falei em vários tremores.
+
+Basicamente a gente trabalha um componente como um pedaço da sua aplicação.
+
+O trecho de código que representa um componente visual da sua tela certo.
+
+Então esse componente visual ele vai ter um HTML.
+
+Ele vai ter um CSS ele vai ter um arquivo TS N que seria o seu comportamento e o arquivo de script.
+
+Então diria que afirmou que não usa tais scripts HTML CSS e JavaScript que nós temos HTML CSS e JavaScript
+
+um componente.
+
+Antigamente a gente separava as aplicações em você separa o código HTML você tem um arquivo JavaScript
+
+que você tem um arquivo CSS e esses arquivos atendiam a sua aplicação inteira.
+
+Agora não a gente tem um componente esse componente ele tem dentro dele auto contido HTML CSS e JavaScript.
+
+Ou seja o componente ele tem um comportamento que você vai conseguir isso a partir do biscuit.
+
+O seu com o seu componente ele tem a estrutura que você consegue a partir do HTML e o seu componente
+
+tem estilo de tal forma que nas contas você vai ter um arquivo se você eventualmente colocar tudo dentro
+
+do arquivo TS mas você vai ter potencialmente pelo menos não pelo menos mais você vai ter via de regra
+
+três arquivos.
+
+Essa é a forma que nós vamos trabalhar no nosso curso.
+
+Você vai ter um arquivo chamado por exemplo imaginando o componente onde você vai ter o volume e ponto
+
+componente ponto CSS.
+
+Você vai ter o arquivo HTML que é o nome Ponto componente ponto HTML e o arquivo de script que é um
+
+bom ponto componente.
+
+Quando o teste dá para você ter um arquivo só dá para você ter apenas dois arquivos.
+
+Também é possível certo mas no nosso caso a gente vai acabar criando os componentes.
+
+E vai ser criado por padrão esses três arquivos HTML CSS PostScript legal no final das contas.
+
+Quando você cria um componente o que é que é gerado e o que como você consegue usar esse componente
+
+é gerado uma tag personalizada no caso o que a gente vai usar pegue para esse exemplo é que o componente
+
+o roubo a vai usar o prefixo padrão.
+
+Eu não vou mudar o prefixo do projeto ou qualquer app aqui foi criado o componente o nome que a gente
+
+vai ter uma tag chamada trace um nome e essa é a forma que você tem para referenciar todo o código HTML
+
+que foi criado dentro desse componente.
+
+Todo o estilo que foi colocado nesse componente.
+
+Toda a lógica que você colocou dentro do ou seja a ideia você encapsular dentro desse componente que
+
+é um trecho visual da sua aplicação Frontin onde você encapsular as três tecnologias da web.
+
+Se um pedaço de código só é a forma como você vai referenciar esse componente a partir de uma tela personalizada.
+
+Certo usar para explicar um pouquinho e contextualizando isso dentro do Anglo.
+
+Para a gente olhar um pouquinho do script certo você tem uma classe que tem suporte na linha 8 no esporte
+
+eles vão no componente para encontrar o componente que está vazio não mexi absolutamente nele nada mas
+
+o que eu quero chamar atenção para vocês aqui é que a partir do arquivo biscuit é que o ângulo vai encontrar
+
+tanto HTML como CSS.
+
+Você cria um componente pelo menos você tem que ter o arquivo Biscuit certo você tem como colocar o
+
+template dentro desse arquivo mas não vai ser nosso estratégico que ele chama de template e inclusive
+
+mudar essa configuração depois que a gente criar o nosso projeto.
+
+Então aqui ele faz uma referência ao arquivo HTML na linha 5 e na linha 6 ele faz uma referência pro
+
+arquivo CSS de tal forma que a partir do nosso arquivo TS em que o arquivo está escrito ele consegue
+
+encontrar onde está o arquivo HTML e o arquivo CSS para ele montar esse componente.
+
+Outra coisa que eu queria falar para vocês além dos componentes eu já citei um pouco que rapidamente
+
+é da organização que o Anglo usa em relação aos módulos.
+
+Então o que é que a gente tem em relação à nossa aplicação.
+
+Nós temos a aplicação organizada em componentes que tem um componente A B C D F G H vá até o componente
+
+ou seja lá ele tem a referência do componente B C e D o componente B tem um Reference para o componente
+
+e F e assim sucessivamente ele vai montando a árvore de componentes só que no caso do Anglo ele não
+
+organiza apenas a aplicação em componentes ele também organiza a aplicação em módulos o que significa
+
+que todos os componentes vão estar dentro de algum modo seja um único módulo da sua aplicação se eventualmente
+
+você quiser usar apenas um único modo pra toda a aplicação é possível sem problema na aplicação pequena
+
+como é o caso da nossa gente vai preferir colocar todos os componentes dentro do app móvel que é o módulo
+
+principal e que foi criado por padrão.
+
+Mas você pode organizar sua aplicação em diversos módulos por exemplo até o App Mode que foi o inicial.
+
+Eu tenho um módulo X que eu criei na minha aplicação por exemplo coloquei x molho tem o módulo Y e tem
+
+um módulo Z.
+
+Daqui desse grafo que você perceber que o app móvel só tem apenas um único componente ou componente
+
+o módulo X tem um componente B C e D o módulo Y tem uns componentes em vermelho aí é F G H e finalmente
+
+o módulo Z tem um componente e j k l m está.
+
+Então falei pra vocês o seguinte que quando você cria um componente dentro do módulo você tem a escolha
+
+de dizer se aquele componente ele ficará visível pra fora do módulo ou seja alguém de fora do módulo
+
+pode referenciar aquele componente ou você pode dizer que aquele componente vai ficar visível apenas
+
+dentro do módulo.
+
+Se você olhar para esse gráfico aí tem apenas um único componente que poderia ser o componente que fica
+
+visível apenas dentro do módulo e esse é o componente H.
+
+Não vou pedir pra vocês adivinhar e não serve o componente porque é que o componente H.
+
+Ele é o único componente nessa lista de componentes que pode ser um componente que fica visível apenas
+
+dentro do módulo porque o componente H.
+
+Ele apenas referenciado pelo componente G é o componente G está dentro do mesmo modo no componente H.
+
+Todos os outros componentes são referenciados por elementos e por outros componentes que estão em outros
+
+módulos por exemplo o componente a no módulo é primordial e ele referencia o componente B C e D o que
+
+significa que o componente B C e D do módulo X ele precisa estar exposto precisa estar visível para
+
+que o componente a consiga referenciar esses três elementos à mesma coisa.
+
+Se a gente pegar no caso do E e F seja o F.
+
+Ele é referenciado pelo componente B então como está num modo diferente automaticamente precisa dentro
+
+do módulo y exportar esses componentes para que ele seja usado a partir do componente B.
+
+Essa é uma forma que você tem como organizar se os componentes eventualmente que eu coloquei só o exemplo
+
+do H para mostrar como sendo um componente é visível apenas no módulo.
+
+Mas é possível que dentro da sua aplicação a aplicação mais complexa você quebre por exemplo os componentes
+
+do módulo financeiro os componentes do módulo do RH e eventualmente algum componente ou um conjunto
+
+de componentes do módulo financeiro.
+
+Talvez não interessa indicar um componente aberto para toda a sua aplicação.
+
+Então você pode colocar um componente para ser visível apenas no modo que na verdade é o padrão você
+
+precisa fazer alguma coisa para que esse componente fique invisível para fora do módulo mas nosso caso
+
+está apresentando isso para mostrar para vocês um pouco da ideia do ângulo como algo ENISA seus componentes.
+
+Também é questão de módulos mas no nosso caso a gente vai trabalhar com apenas um único módulo que é
+
+o WEP Mode.
+
+Não vou criar essa complexidade desnecessária para um projeto pequeno como o nosso caso com um projeto
+
+de cadastro o cliente White dente de leite.
+
+Então vamos lá mostrou um pouquinho mais dos módulos você vai ver dentro do arquivo o módulo vai ter
+
+uma série de atributos lá por exemplo pegando aqui no caso o exemplo de apenas um único módulo todo
+
+esse quadrado azul representa um único módulo.
+
+E você vai ter cinco atributos dentro de um módulo que vai ser o decorrer achamos impostos esportes
+
+provar ideias e Bootstrap.
+
+Então nós temos cinco atributos no módulo esses cinco atributos são usados para você configurar um módulo
+
+o que é que você coloca dentro de declarar caixa.
+
+Você vai declarar todos os componentes que fazem parte daquele módulo.
+
+Você vai declarar.
+
+Outra coisa é chamar diretivos que fazem parte daquele módulo.
+
+E você também vai declarar os pais que fazem parte daquele módulo esse da caixa 1 vai ser usado principalmente
+
+no nosso projeto para declarar os componentes que fazem parte daquele módulo.
+
+Quando você disse que um componente faz parte do módulo não necessariamente ele é visível para fora
+
+do módulo certo pra você tornar o componente visível pra fora do módulo.
+
+Você tem que colocar esse componente também dentro da parte o item esportes que é exatamente o atributo
+
+abaixo.
+
+Então nós temos declarou Schulz para declarar todos os componentes diretivas e pipes e todos os componentes
+
+diretivas e Pipes que vão ser exportados.
+
+Oscar visíveis para fora do módulo eles são colocados dentro de esportes ou seja o esporte pode ser
+
+exatamente tudo o que você colocou em declarar isso.
+
+Como pode ser uma parte daquilo que você declarou dentro do módulo 7 quando você não quer exportar alguma
+
+coisa.
+
+Você não coloca dentro de esportes o que você coloca dentro de portas de impostos.
+
+Você vai importar outros módulos ou seja um módulo pode depender de outro módulo.
+
+Pra gente vou trabalhar com os componentes do o jogo você vai perceber que a gente vai importar vários
+
+módulos e esses módulos vão conter componentes.
+
+Então basicamente o que você vai colocar dentro de portas.
+
+Você vai importar um modelo lá.
+
+O módulo B é o módulo c esse modelo a Módulo B Módulo C pode ser módulo da sua própria aplicação.
+
+Como pode ser um módulo externo que você importou alguma dependência.
+
+Por exemplo uma biblioteca de componentes visuais se importou e você usa esses componentes que é o que
+
+a gente vai fazer no nosso projeto.
+
+E você tem também a questão dos provadores os problemas você vai declarar o seu serviço.
+
+Seleção o que é certo.
+
+Na prática isso não agora mas lá na frente eu vou mostrar pra você o que significa o sexo e por último.
+
+Nós temos um atributo chamado bootstrap que é exatamente o que define o nosso componente que será carregado
+
+naquele módulo.
+
+O uso do budista WEP ele vai ser necessário para apenas um único módulo que é o módulo inicial são então
+
+dentro do app Mode que é um módulo que é carregado mensalmente.
+
+é exatamente esse atributo multitarefa que vai fazer com que o componente principal seja carregado e
+
+ele esteja disponível para ser usado na sua single pelo aplicativo ou mostrar isso na prática.
+
+Também já comentei sobre isso naquele processo de inicialização você tem uma hipotese que carrega o
+
+app Mode que é o módulo principal que daí ele vai carregar o seu componente principal.
+
+Já falei isso para vocês anteriormente então imaginando um projeto com vários módulos como mostrei pra
+
+vocês anteriormente no app Mode.
+
+Você vai ter por exemplo o bootstrap que é onde vai ter a referência para o componente principal que
+
+será carregado.
+
+Você vai ter as decorrente de todos os componentes que fazem parte do app molho e você vai ter um porta
+
+você vai depender de outros módulos.
+
+No caso do app Mode você não precisa exportar nada certo.
+
+Na verdade os outros é que vão exportar para o app molho utilizarem a dependência de cima para baixo
+
+na árvore.
+
+Se eu voltar aqui na frente componente a dependência do app depende do BEI o B não depende do app.
+
+Então ninguém precisa referenciar diretamente com o oponente.
+
+Na verdade o componente que referencia o B o B precisa ser exportado mas você não vai ter o balcão pra
+
+lá só carregar aqui.
+
+Essas animações para gente voltar para mim estavam antes então passam para a próxima.
+
+Um falso slide Cardinal está aí então caso o F Mode não precisa exportar nada na verdade importa os
+
+outros módulos.
+
+Já o módulo X Y e Z eles vão ter até quatro eixos e todos os componentes diretivas de pais que foram
+
+declarados naquele módulo e dentro do esporte você vai colocar um subconjunto mesmo todos os elementos
+
+do Eixo para dizer quais são os elementos que vão ser exportados para fora daquele módulo seja o componente
+
+diretivas ou Python.
+
+Você tem os impostos prováveis ou seja todos os outros modos podem ter todos esses atributos preenchidos
+
+ou não dependendo daquele que você vai fazer.
+
+Certo é você tem o módulo principal que é o modo como tendo também um atributo bootstrap que vai ser
+
+responsável por carregar o primeiro componente na sua aplicação.
+
+Então pessoal fique por aqui nessa aula nós falamos basicamente na sala sobre dois conceitos extremamente
+
+importantes que é o conceito de componente e o conceito de módulo que a forma que você organiza a sua
+
+aplicação.
+
+Certo Eu já falei de componente agora exatamente porque o componente é um conceito extremamente importante
+
+e central dentro afirmou que não apenas para Angola como para outros muitos frameworks de mercado que
+
+se baseiam nessa abordagem politizada.
+
+Mas você já tem uma ideia do Angola já sabe os principais conceitos e na próxima aulas vai começar a
+
+criar o nosso projeto e eu espero lá.
